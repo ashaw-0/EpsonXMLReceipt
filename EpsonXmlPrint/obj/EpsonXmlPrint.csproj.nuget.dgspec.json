@@ -1,0 +1,107 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/aaron/Documents/C#-Personal/EpsonXML/EpsonXmlPrint/EpsonXmlPrint.csproj": {}
+  },
+  "projects": {
+    "/Users/aaron/Documents/C#-Personal/EpsonXML/EpsonXmlPrint/EpsonXmlPrint.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/aaron/Documents/C#-Personal/EpsonXML/EpsonXmlPrint/EpsonXmlPrint.csproj",
+        "projectName": "EpsonXmlPrint",
+        "projectPath": "/Users/aaron/Documents/C#-Personal/EpsonXML/EpsonXmlPrint/EpsonXmlPrint.csproj",
+        "packagesPath": "/Users/aaron/.nuget/packages/",
+        "outputPath": "/Users/aaron/Documents/C#-Personal/EpsonXML/EpsonXmlPrint/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/aaron/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "/Users/aaron/Desktop": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "NSwag.ApiDescription.Client": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[13.0.5, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.11.7, )"
+            },
+            "System.Configuration.ConfigurationManager": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.ServiceModel.Duplex": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.NetTcp": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            },
+            "System.ServiceModel.Security": {
+              "target": "Package",
+              "version": "[4.8.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
